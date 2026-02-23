@@ -39,3 +39,6 @@ Imporve your soft skills:
  + replaced: `<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />` with the link `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">`
  + Boom the Cover Website looks exactly as it should be!!!
 
+**Setting up CI/CD**
+- This helps with continuous integration and continuous deployment, everytime when code changes are pushed to the default branch(main), these changes will be deployed to the production code in live.
+
