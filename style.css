@@ -2,6 +2,11 @@
  * Globals
  */
 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* Custom default button */
 .btn-light,
@@ -21,14 +26,40 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-.cover-container {
-  max-width: 42em;
-}
-
-
 /*
  * Header
  */
+
+/* BANNER WRAP SECTION */
+.banner-wrap {
+    background-image: url("https://github.com/rkmoropane/rkmoropane.github.io/blob/main/images/pexels-sora-shimazaki-5926397.jpg?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 100vh;       /* ⭐ Makes it fill the whole visible screen */
+    width: 100%;
+    position: relative;
+    z-index: 1; /*The banner-wrap must appear on top of overlay.*/
+}
+
+.overlay {
+    z-index: -1; /* Overlay: We need to send it back with negative one so that it doesnot appear on top*/
+    height: 100%;
+    width: 100%;
+    background: black;
+    position: absolute; /* This value has disrupted the element flow, it has appeared on top of the banner-wrap. */
+    top: 0;
+    opacity: 40%;
+}
+
+#names {
+  color: #ff0059;
+}
+
+#highlight {
+  color: #ff8800;
+}
 
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, .5);
@@ -48,3 +79,4 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
