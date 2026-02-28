@@ -57,6 +57,19 @@ $spacers: (
 );
 ```
 
+## Attempt on the Javascript for functionality.
+- use the following to understand the `addEventListener`: https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+
+- **Which JavaScript method is commonly used to toggle the visibility of an HTML element by adding or removing a CSS class?**
+ > `element.classList.toggle()`
+
+
+- **In JavaScript, which event is triggered when a user scrolls a webpage, allowing you to respond to the scrolling action?**
+ > `scroll`
+
+- **Which CSS property is commonly used to create smooth transitions between different states of an element, such as changing its color or size?**
+ > `transition`
+
 ## Some of the BootStrap classes created by default:
 
 - **Which Bootstrap component is used to create visually appealing content containers with headers and footers?**
@@ -132,5 +145,31 @@ $spacers: (
  > It styles form inputs and textarea elements
 
 - **Which class is used to create a group of checkboxes or radio buttons in Bootstrap?**
- > 
+ > `.form-check`
+
+- **Which class is used to create a multi-line text input (textarea) in Bootstrap?**
+ > `.form-control`
+
+- **Which Bootstrap class is used to create a navigation bar that sticks to the top of the viewport even when scrolling?**
+ > `.fixed-top`
+
+- **What does the CSS property opacity control?**
+ > The visibility of an element.
+
+- **To create a smooth scrolling effect within a webpage using an anchor tag, what should the href attribute contain?**
+ > An ID selector of the target section within the page.
+
+- **Which Bootstrap class is used to create a flexible container that enables a horizontal layout for its child elements?**
+ > `.d-flex`
+
+- **What is the purpose of the .align-items-center class in Bootstrap?**
+ >Centers an element vertically within its parent.
+
+- **Which Bootstrap class is used to horizontally center the content of a flex container?**
+ > `.justify-content-center`
+
+## Typed js
+- Access the typedjs repository from github: `https://github.com/mattboldt/typed.js`
+- **import the following CDN into your html document:**
+ > `<script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>`
 

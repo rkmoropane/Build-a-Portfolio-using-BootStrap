@@ -57,7 +57,7 @@ body {
   color: #ff0059;
 }
 
-#highlight {
+#typed {
   color: #ff8800;
 }
 
@@ -80,3 +80,8 @@ body {
   border-bottom-color: #fff;
 }
 
+.scrolling {
+  background: black;
+  opacity: 90%;
+  transition: all 0.5s;
+}
